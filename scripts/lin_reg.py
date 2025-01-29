@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 df = pd.read_csv("./data/sampregdata.csv")
 
-X = df[["x1"]]
+X = df[["x1", "x2"]]
 y = df["y"]
 
 # Split the data
@@ -25,4 +25,4 @@ print(f"Mean Squared Error: {mse}")
 # Save the model
 import joblib
 
-joblib.dump(model, "./models/model_v1.pkl")
+joblib.dump(model, "./models/model_v2.pkl")

@@ -6,6 +6,8 @@
 
 ### Performance Comparison:
 - **Model v1**: Mean Squared Error (MSE) = 105.518 
+- **Model v2**: Mean Squared Error (MSE) = 72.774  
+- Model v2 performs better.  
 
 ## Running the Models:
 1. Install dependencies:  
